@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(443, () => console.log('AI server started on https://codex-fazt.onrender.com/'))
+app.listen(443, () => console.log('AI server started on https://codex-xgik.onrender.com'))
