@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello from CodaX!'
+    message: 'Hello from CodeX!'
   })
 })
 
@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(443, () => console.log('AI server started on https://codex-xgik.onrender.com'))
+app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
